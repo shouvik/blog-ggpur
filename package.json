@@ -1,0 +1,26 @@
+{
+  "name": "ggpur",
+  "version": "1.0.0",
+  "description": "@shouvik's blog",
+  "author": "shouvik",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "develop": "webpack serve"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "css-loader": "^5.0.2",
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "htm": "^3.0.4",
+    "preact": "^10.5.12",
+    "ramda": "^0.27.1",
+    "style-loader": "^2.0.0"
+  }
+}

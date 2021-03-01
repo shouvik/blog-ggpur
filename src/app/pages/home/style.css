@@ -1,0 +1,5 @@
+.carousel_container {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1em;
+}
