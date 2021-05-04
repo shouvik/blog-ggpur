@@ -21,5 +21,5 @@ const router = (_, pages, state, action) => {
 
 export const renderer = curry(async (pages, _state, _action, event) => {
     const { view, state  = {}, action = {} } = router(event, pages, _state, _action);
-    render(view(state, action), document.body)
+    render(await view(state, action), document.body)
 })

@@ -6,11 +6,11 @@ import { view as post, state as postState, action as postAction } from './pages/
 
 import { header as Header} from './components/static/header'
 
-const app = curry((children, state, action) => {
+const app = curry(async (children, state, action) => {
     return html`
     <div>
         ${Header(state, action)}
-        ${children(state, action)}
+        ${await children(state, action)}
     </div>`;
 })
 

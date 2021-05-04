@@ -1,7 +1,7 @@
 import { API_URL } from './app.constants'
-import { BLOG_IDS } from './blog.constants'
+import { BLOG_DOC } from './blog.constants'
 
 export {
     API_URL,
-    BLOG_IDS
+    BLOG_DOC
 }

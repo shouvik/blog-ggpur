@@ -5,6 +5,7 @@ export const blogPost = (state, action) => {
     const {
         introText, blogImage, blogTitle, blogURL
     } = state;
+    console.log(state)
     return html`
     <div>
         <div class="wrapper">

@@ -1,3 +1,1 @@
-export const BLOG_IDS = [
-    "b84792b20c6f472fb072"
-]
+export const BLOG_DOC = "b84792b20c6f472fb072"
